@@ -78,6 +78,11 @@ nav > div:hover {
   transition-duration: 300ms;
 }
 
+nav a:hover {
+  background-color: rgba(119, 119, 119, 0.486);
+  transition-duration: 300ms;
+}
+
 .comingsoon {
   color: white;
   text-align: center;
@@ -117,7 +122,7 @@ main {
   width: 100%;
 }
 .parent-container {
-    display: flex;
+  display: flex;
 }
 
 #parentgridschedule > div {
@@ -392,11 +397,10 @@ footer {
   bottom: 0;
   font-size: 12px;
   text-align: center;
-  margin-top: -15rem;
 }
-.classique{
-    margin-top: 0;
-    padding: 20px;
+.classique {
+  margin-top: 0;
+  padding: 20px;
 }
 
 footer > p {
@@ -420,24 +424,86 @@ footer a:hover {
   display: block;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 25%;
-    color: #000000;
-    font-size: 46px;
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25%;
+  color: #000000;
+  font-size: 46px;
 }
 
-.index-page{
+.index-page {
   background-image: url(../img/bgf1.jpg);
 }
-.wec-page{
+.wec-page {
   background-image: url(../img/bgwec.jpg);
 }
-.wrc-page{
+.wrc-page {
   background-image: url(../img/bgwrc.jpg);
 }
-.login-page{
+.login-page {
   background-image: url(../img/bglogin.jpg);
+}
+.oubliee {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: rgb(30, 98, 158);
+}
+.profil a {
+  color: rgb(30, 98, 158);
+  text-decoration: none;
+}
+.profil a:hover {
+  text-decoration: underline;
+}
+.profil button {
+  background: #fff;
+  color: rgb(30, 98, 158);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+.profil button a {
+  color: rgb(30, 98, 158);
+}
+.profil button a:hover {
+  text-decoration: underline;
+}
+.profil fieldset {
+  padding: 3rem;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.profil-input {
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(30, 98, 158);
+  border-radius: 40px;
+  color: rgb(30, 98, 158);
+  padding:1.5rem;
+}
+.profil-input::placeholder {
+  color: rgb(30, 98, 158);
 }

@@ -1,13 +1,3 @@
-<?php $page = basename($_SERVER["PHP_SELF"],'.php');
-
-$pagesClass = [
-    'index' => 'index-page',
-    'wec' => 'wec-page',
-    'wrc' => 'wrc-page',
-    'login' => 'login-page'
-];
-$pageClass = isset($pagesClass[$page]) ? $pagesClass[$page] :'login-page';
-?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -21,7 +11,7 @@ $pageClass = isset($pagesClass[$page]) ? $pagesClass[$page] :'login-page';
     <title>Motorsport Schedules</title>
 </head>
 <body>
-    <main class="<?php echo $pageClass; ?>">
+    <main class="<?php echo $data["pageClass"]; ?>">
         <nav>
             <div style="background-color: #e62a2a;"> <a href="./?action=accueil"> <img src="/img/logof1.png" alt="logo wrc"> </a> </div>
             <div> <a href=""> <img src="/img/logowec.png" alt="logo f1"> </a> </div>

@@ -1,4 +1,6 @@
-<h1>Inscription</h1>
+<div class="profil">
+    <h1>Inscription</h1>
 
-Votre inscription a bien été effectué<br>
-Vueillez vous <a href="./?action=connexion">connecter</a>
+    Votre inscription a bien été effectué<br>
+    Vueillez vous <a href="./?action=connexion">connecter</a>
+</div>

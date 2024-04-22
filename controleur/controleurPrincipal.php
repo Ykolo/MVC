@@ -11,6 +11,7 @@ function controleurPrincipal($action)
     $lesActions["supprimerC"] = "supprimerCompte.php";
     $lesActions["profil"] = "monProfil.php";
     $lesActions["deconnexion"] = "deconnexion.php";
+    $lesActions["update"] = "updProfil.php";
 
      
     if (array_key_exists ( $action , $lesActions )){

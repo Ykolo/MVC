@@ -5,6 +5,8 @@ if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
 }
 include_once "$racine/modele/bd.utilisateur.inc.php";
 
+$page = 'login';
+$data['pageClass'] = $page . '-page';
 // creation du menu burger
 $menuBurger = array();
 $menuBurger[] = Array("url"=>"./?action=connexion","label"=>"Connexion");

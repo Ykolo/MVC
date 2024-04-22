@@ -4,6 +4,8 @@ if ($_SERVER["SCRIPT_FILENAME"] == __FILE__) {
 }
 include_once "$racine/modele/authentification.inc.php";
 
+$page = 'login';
+$data['pageClass'] = $page . '-page';
 // création du menu burger
 $menuBurger = array();
 $menuBurger[] = Array("url" => "./?action=connexion", "label" => "Connexion");
