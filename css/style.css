@@ -1,0 +1,443 @@
+/* Fonts */
+
+@font-face {
+  font-family: "MADE TOMMY";
+  src: url("fonts/MADETOMMY-Medium.woff2") format("woff2"),
+    url("fonts/MADETOMMY-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE TOMMY BOLD";
+  src: url("fonts/MADETOMMY-ExtraBold.woff2") format("woff2"),
+    url("fonts/MADETOMMY-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Formula1";
+  src: url("fonts/F1.woff2") format("woff2"),
+    url("fonts/F1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Formula1 Bold";
+  src: url("fonts/F1Bold.woff2") format("woff2"),
+    url("fonts/F1Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Mise par defaut des donnees */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MADE TOMMY";
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 700px;
+  overflow-x: auto;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+/*Parametres de la barre de navigation*/
+
+nav {
+  display: flex;
+  background: rgba(0, 0, 0, 0.521);
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+  width: 10%;
+}
+
+nav > div:hover {
+  background-color: rgba(119, 119, 119, 0.486);
+  transition-duration: 300ms;
+}
+
+.comingsoon {
+  color: white;
+  text-align: center;
+  cursor: not-allowed;
+}
+
+#connexion {
+  margin-left: auto;
+  width: 10%;
+}
+
+nav img {
+  padding: 15%;
+  width: 100%;
+}
+
+main {
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Main */
+
+.schedule {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 900px;
+}
+
+#parentgridschedule {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+}
+.parent-container {
+    display: flex;
+}
+
+#parentgridschedule > div {
+  text-align: center;
+  padding: 5px 20px;
+  box-shadow: inset 0 0 0 1000px rgba(3, 3, 3, 0.616), 3px 3px 16px 2px #000000;
+  text-shadow: 4px 5px 30px rgb(0, 0, 0);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border: 3px solid #ffffff;
+}
+
+#parentgridschedule > div:hover:not(:last-child) {
+  box-shadow: inset 0 0 0 1000px rgba(3, 3, 3, 0.37), 3px 3px 16px 2px #000000;
+}
+
+.div1gridschedule,
+.div2gridschedule,
+.div3gridschedule,
+.div4gridschedule {
+  width: 20vw;
+  height: 20vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-duration: 200ms;
+}
+
+.div1gridschedule {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2gridschedule {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3gridschedule {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div4gridschedule {
+  grid-area: 1 / 4 / 2 / 5;
+}
+#ContainerInfos {
+  grid-area: 2 / 1 / 4 / 5;
+}
+
+#parentgridschedule * {
+  font-family: "Formula1 Bold";
+}
+
+#parentgridschedule h1 {
+  font-size: 2vh;
+}
+
+#parentgridschedule h2 {
+  font-size: 3vh;
+  padding-bottom: 3%;
+}
+
+#parentgridschedule button {
+  font-size: 1.8vh;
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* F1 */
+
+#f1abudhabigp {
+  background-image: url("assets/f1tracks/abudhabi.jpg");
+}
+
+#f1bahraingp {
+  background-image: url("assets/f1tracks/bahrain.jpg");
+}
+
+#f1saudigp {
+  background-image: url("assets/f1tracks/saudi-arabia.jpg");
+}
+
+#f1australiagp {
+  background-image: url("assets/f1tracks/australia.jpg");
+}
+
+/* WEC */
+
+#wecbahrain {
+  background-image: url("assets/wectracks/bahrain.jpg");
+}
+
+#wecqatar {
+  background-image: url("assets/wectracks/qatar.jpg");
+}
+
+#wecitaly {
+  background-image: url("assets/wectracks/italy.jpg");
+}
+
+#wecbelgium {
+  background-image: url("assets/wectracks/belgium.jpg");
+}
+
+/* WEC */
+
+#rallyportugal {
+  background-image: url("assets/rallytracks/portugal.jpg");
+}
+
+#rallysweden {
+  background-image: url("assets/rallytracks/sweden.jpg");
+}
+
+#rallykenya {
+  background-image: url("assets/rallytracks/kenya.jpg");
+}
+
+#rallycroatia {
+  background-image: url("assets/rallytracks/croatia.jpg");
+}
+
+/*Infos*/
+
+#ContainerInfos {
+  display: none;
+  height: 40vh;
+  margin: 10px 200px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.InfosFirstRow,
+.InfosSecondRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  font-size: 2vw;
+}
+
+.InfosFirstRow > div:first-child {
+  padding-left: 40px;
+  text-transform: uppercase;
+}
+
+.InfosFirstRow > div {
+  padding-right: 20px;
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.InfosSecondRow img {
+  width: auto;
+  height: 25vh;
+  padding-bottom: 80px;
+  padding-left: 40px;
+}
+
+#closebutton {
+  height: 64px;
+  width: auto;
+  cursor: pointer;
+  float: right;
+  filter: brightness(0%) saturate(0%) invert(100%);
+}
+
+#closebutton:hover {
+  filter: brightness(100%) saturate(100%) invert(0%);
+}
+
+/* footer */
+footer {
+  color: white;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  padding: 0.5rem;
+}
+footer p {
+  text-align: center;
+  justify-content: center;
+}
+/*Footer */
+
+.connexionform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  height: 80vh;
+}
+.connexionform fieldset {
+  padding: 3rem;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.connexionform h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(30, 98, 158);
+}
+.connexionform label {
+  color: rgb(30, 98, 158);
+}
+.connexionform .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.connexionform .oublie a {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 15px;
+  text-decoration: none;
+}
+.connexionform .oublie a:hover {
+  text-decoration: underline;
+}
+.connexionform input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(30, 98, 158);
+  border-radius: 40px;
+  color: rgb(30, 98, 158);
+  padding: 20px 45px 20px 20px;
+}
+.connexionform ::placeholder {
+  color: rgb(30, 98, 158);
+}
+.connexionform button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  color: rgb(30, 98, 158);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+.connexionform button :hover {
+  text-decoration: underline;
+}
+.connexionform a {
+  color: rgb(30, 98, 158);
+}
+
+.connexionform * {
+  margin: 2%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 50px;
+  width: 100%;
+  display: block;
+  position: relative;
+  bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -15rem;
+}
+.classique{
+    margin-top: 0;
+    padding: 20px;
+}
+
+footer > p {
+  font-weight: 600;
+}
+
+.coord > ul {
+  list-style-type: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: burlywood;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25%;
+    color: #000000;
+    font-size: 46px;
+}
+
+.index-page{
+  background-image: url(../img/bgf1.jpg);
+}
+.wec-page{
+  background-image: url(../img/bgwec.jpg);
+}
+.wrc-page{
+  background-image: url(../img/bgwrc.jpg);
+}
+.login-page{
+  background-image: url(../img/bglogin.jpg);
+}

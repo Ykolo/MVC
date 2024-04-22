@@ -1,0 +1,106 @@
+{
+    "fo1": {
+        "abudhabi": {
+            "gpname": "Abu Dhabi",
+            "gpdate": "24-26 NOV 2023",
+            "gpround": "23",
+            "gpseasonrounds" : "23",
+            "gpmap": "assets/maps/abudhabi.avif",
+            "gpinfos": {}
+        },
+        "bahrain": {
+            "gpname": "Bahrain",
+            "gpdate": "29-02 FEB-MAR 2024",
+            "gpround": "1",
+            "gpseasonrounds" : "24",
+            "gpmap": "assets/maps/bahrain.avif",
+            "gpinfos": {}
+        },
+        "saudi": {
+            "gpname": "Saudi Arabia",
+            "gpdate": "07-09 MAR 2024",
+            "gpround": "2",
+            "gpseasonrounds" : "24",
+            "gpmap": "assets/maps/saudi.avif",
+            "gpinfos": {}
+        },
+        "australia": {
+            "gpname": "Australia",
+            "gpdate": "22-24 MAR 2024",
+            "gpround": "3",
+            "gpseasonrounds" : "24",
+            "gpmap": "assets/maps/australia.avif",
+            "gpinfos": {}
+        }
+
+    },
+    "wec": {
+        "bahrain": {
+            "gpname": "Bahrain",
+            "gpdate": "4 NOV 2023",
+            "gpround": "7",
+            "gpseasonrounds" : "7",
+            "gpmap": "assets/maps/bahrain.avif",
+            "gpinfos": {}
+        },
+        "qatar": {
+            "gpname": "Qatar",
+            "gpdate": "2 MAR 2024",
+            "gpround": "1",
+            "gpseasonrounds" : "8",
+            "gpmap": "assets/maps/qatar.avif",
+            "gpinfos": {}
+        },
+        "italy": {
+            "gpname": "Italy",
+            "gpdate": "21 APR 2024",
+            "gpround": "2",
+            "gpseasonrounds" : "8",
+            "gpmap": "assets/maps/imola.avif",
+            "gpinfos": {}
+        },
+        "belgium": {
+            "gpname": "Belgium",
+            "gpdate": "11 MAY 2024",
+            "gpround": "3",
+            "gpseasonrounds" : "8",
+            "gpmap": "assets/maps/spa.avif",
+            "gpinfos": {}
+        }
+    },
+    "wrc": {
+        "sweden": {
+            "gpname": "Sweden",
+            "gpdate": "18 FEV 2024",
+            "gpround": "2",
+            "gpseasonrounds" : "13",
+            "gpmap": "assets/maps/wrcsweden.svg",
+            "gpinfos": {}
+        },
+        "kenya": {
+            "gpname": "Kenya",
+            "gpdate": "31 MAR 2024",
+            "gpround": "3",
+            "gpseasonrounds" : "13",
+            "gpmap": "assets/maps/wrckenya.svg",
+            "gpinfos": {}
+        },
+        "croatia": {
+            "gpname": "Croatia",
+            "gpdate": "21 APR 2024",
+            "gpround": "4",
+            "gpseasonrounds" : "13",
+            "gpmap": "assets/maps/wrccroatia.svg",
+            "gpinfos": {}
+        },
+        "portugal": {
+            "gpname": "Portugal",
+            "gpdate": "12 MAY 2024",
+            "gpround": "5",
+            "gpseasonrounds" : "13",
+            "gpmap": "assets/maps/wrcportugal.svg",
+            "gpinfos": {}
+        }
+    }
+}
+
