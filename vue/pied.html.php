@@ -1,5 +1,5 @@
 
-<footer>
+<footer >
         <p>Alex Da Costa - Loic Lau</p>
         <br>
         <div class = "coord"> 

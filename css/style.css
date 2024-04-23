@@ -78,6 +78,9 @@ nav > div:hover {
   transition-duration: 300ms;
 }
 
+nav a {
+  text-decoration: none;
+}
 nav a:hover {
   background-color: rgba(119, 119, 119, 0.486);
   transition-duration: 300ms;
@@ -435,15 +438,19 @@ footer a:hover {
 
 .index-page {
   background-image: url(../img/bgf1.jpg);
-}
-.wec-page {
-  background-image: url(../img/bgwec.jpg);
-}
-.wrc-page {
-  background-image: url(../img/bgwrc.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .login-page {
   background-image: url(../img/bglogin.jpg);
+}
+.ecurie-page {
+  background-color: #fff;
+  color: rgb(30, 98, 158);
+}
+.pilote-page {
+  background-color: #fff;
+  color: rgb(30, 98, 158);
 }
 .oubliee {
   color: #000000;
@@ -458,7 +465,7 @@ footer a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 90vh;
   color: rgb(30, 98, 158);
 }
 .profil a {
@@ -502,8 +509,37 @@ footer a:hover {
   border: 2px solid rgb(30, 98, 158);
   border-radius: 40px;
   color: rgb(30, 98, 158);
-  padding:1.5rem;
+  padding: 1.5rem;
 }
 .profil-input::placeholder {
   color: rgb(30, 98, 158);
 }
+
+.ecurie {
+  height: 70vh;
+}
+.ecurie img {
+  width: 4rem;
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+

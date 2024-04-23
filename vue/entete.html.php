@@ -14,8 +14,8 @@
     <main class="<?php echo $data["pageClass"]; ?>">
         <nav>
             <div style="background-color: #e62a2a;"> <a href="./?action=accueil"> <img src="/img/logof1.png" alt="logo wrc"> </a> </div>
-            <div> <a href=""> <img src="/img/logowec.png" alt="logo f1"> </a> </div>
-            <div> <a href=""> <img src="/img/logowrc.png" alt="logo wec"> </a> </div>
+            <div> <a href="./?action=ecurie"> ECURIE </a> </div>
+            <div> <a href="./?action=pilote"> PILOTE </a> </div>
             <div class="comingsoon">MORE COMING SOON</div>
             <?php if (isLoggedOn()) { ?>
                 <a href="./?action=profil" id="connexion"><button><img src="../img/account.png" alt="Connexion"></button></a>
