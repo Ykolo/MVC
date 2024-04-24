@@ -2,8 +2,9 @@
 
 function connexionPDO() {
     $login = "root";
-    $mdp = "root";
+    $mdp = "";
     $bd = "mvc";
+    // $serveur = "34.230.247.13";
     $serveur = "localhost";
 
     try {
